@@ -1,9 +1,9 @@
 {
-	"project_name": "class",
+	"project_name": "SilexSeed",
 
 	"vagrant": {
 		"web": {
-			"host": "class.local",
+			"host": "silex.local",
 			"ip": "192.168.33.1",
 			"ports": {
 				"80": "8080",

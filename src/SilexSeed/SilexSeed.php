@@ -1,7 +1,7 @@
 <?php
-	namespace ClassApp;
+	namespace SilexSeed;
 
-	class ClassApp
+	class SilexSeed
 	{
 		public function __construct()
 		{

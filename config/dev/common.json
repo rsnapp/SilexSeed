@@ -3,6 +3,12 @@
 
 	"apache_listen_port": "80",
 
-	"db_name": "class",
-	"db_pass": "pass123"
+	"db_name": "silex",
+	"db_pass": "pass123",
+
+	"hosts": {
+		"10.0.2.2": "vmhost.local",
+		"192.168.33.1": "silex.local"
+	}
+
 }
