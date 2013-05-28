@@ -1,0 +1,12 @@
+{
+	"name": "classapp/classapp",
+	"require": {
+		"silex/silex": "1.0.*@dev",
+		"igorw/config-service-provider": "1.0.*@dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"ClassApp": "src/"
+		}
+	}
+}
