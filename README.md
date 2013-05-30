@@ -1,5 +1,7 @@
 This project seed has the basics settings to install apache, mysql server, set up an empty database, and install silex through composer.
 
+Download and install virtualbox from [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) and vagrant from [http://downloads.vagrantup.com/](http://downloads.vagrantup.com/)
+
 Use `git clone --recursive git@github.com:rsnapp/SilexSeed.git`, go into the env folder, type `vagrant up` and you should be ready to go.  You can access the web root (www folder) at `localhost:8080`  
 
 If you change some .json settings (including `composer.json`) be sure to rerun `vagrant provision` which will rerun puppet and update all the config files and update/install your composer packages on the virtual machine.  If you want to ssh into your virtual machine use `vagrant ssh` and once in using `cd dev` should put you in the project root on the virtual machine.  Your files are automatically sync'd between your local machine and your virtual machine.
