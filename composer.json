@@ -2,7 +2,9 @@
 	"name": "SilexSeed/SilexSeed",
 	"require": {
 		"silex/silex": "1.0.*@dev",
-		"igorw/config-service-provider": "1.0.*@dev"
+		"igorw/config-service-provider": "1.0.*@dev",
+		"dflydev/doctrine-orm-service-provider": "1.0.*@dev",
+		"twig/twig": ">=1.8,<2.0-dev"
 	},
 	"autoload": {
 		"psr-0": {

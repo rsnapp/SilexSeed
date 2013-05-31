@@ -4,8 +4,12 @@
 
 	$app = new SilexSeed\SilexSeed();
 	
-	$app->get('/', function() {
-		return 'SilexSeed is Working!';
+	$app->get('/', function() use($app) {
+    	return $app['twig']->render('angular.twig.html');
+	});
+
+	$app->get('/api', function() {
+		return '';
 	});
 
 	$app->run();
